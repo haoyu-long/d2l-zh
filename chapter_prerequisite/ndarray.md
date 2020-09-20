@@ -111,7 +111,7 @@ nd.concat(X, Y, dim=0), nd.concat(X, Y, dim=1)
 使用条件判断式可以得到元素为0或1的新的`NDArray`。以`X == Y`为例，如果`X`和`Y`在相同位置的条件判断为真（值相等），那么新的`NDArray`在相同位置的值为1；反之为0。
 
 ```{.python .input}
-X == Y
+X < Y
 ```
 
 对`NDArray`中的所有元素求和得到只有一个元素的`NDArray`。
